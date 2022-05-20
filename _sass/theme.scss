@@ -14,7 +14,7 @@
     	 url('/fonts/Volkorn.ttf') format("truetype");
 }
   
-FL { font-family: 'GoudyInitialen', 'Nimbus Roman', !default; }
+$FL: 'GoudyInitialen', 'Nimbus Roman', !default;
 
 // Define defaults for each variable.
 
@@ -74,9 +74,9 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "yat/base",
-  "yat/layout",
-  "yat/dark",
+  "theme/base",
+  "theme/layout",
+  "theme/dark",
   "misc/theme-toggle",
   "misc/article-menu",
   "misc/common-list",

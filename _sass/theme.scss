@@ -1,5 +1,21 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'GoudyInitialen';
+    src: url('/fonts/subset-GoudyInitialen.woff2') format("woff2"),
+    	 url('/fonts/subset-GoudyInitialen.woff') format("woff"),
+    	 url('/fonts/GoudyInitialen.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Volkorn';
+    src: url('/fonts/Volkorn.woff2') format("woff2"),
+    	 url('/fonts/Volkorn.woff') format("woff"),
+    	 url('/fonts/Volkorn.ttf') format("truetype");
+}
+  
+FL { font-family: 'GoudyInitialen', 'Nimbus Roman', !default; }
+
 // Define defaults for each variable.
 
 $base-font-family: "Volkorn", Helvetica, Arial, Oswald, sans-serif, !default;

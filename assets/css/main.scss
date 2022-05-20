@@ -33,4 +33,9 @@ $brand-color: map-get($brand-colors, "orangered");
   $brand-color: {{ site.brand_color | default: '#ff5100' }};
 }
 
+@font-face {
+  font-family: "Volkorn";
+  src: url("../assets/fonts/Volkorn-Regular.tff");
+}
+
 @import "yat";

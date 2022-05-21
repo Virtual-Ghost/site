@@ -3,14 +3,13 @@
 ---
 @font-face {
     font-family: 'GoudyInitialen';
-    src: url('subset-GoudyInitialen.woff2') format("woff2"),
-    	 url('subset-GoudyInitialen.woff') format("woff"),
-    	 url('GoudyInitialen.ttf') format("truetype");
+    src: url('../assets/fontssubset-GoudyInitialen.woff2') format("woff2"),
+    	 url('../assets/fontssubset-GoudyInitialen.woff') format("woff"),
+    	 url('../assets/fontsGoudyInitialen.ttf') format("truetype");
 }
 @font-face {
   font-family: "Volkorn";
   src: url("/assets/fonts/Volkorn-Regular.tff") format("truetype");
-  src: url("../assets/fonts/Volkorn-Regular.tff") format("truetype");
 }
 
 // Default theme colors

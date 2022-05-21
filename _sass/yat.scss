@@ -28,6 +28,7 @@ p {
 }
 
 h2 + p::first-letter {
+ margin-top: -.25em;
  line-height: 0.85em;
   font-size: 10em;
   font-family: 'GoudyInitialen';

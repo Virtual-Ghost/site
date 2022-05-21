@@ -26,8 +26,8 @@
         </a>
       </h2>
       <div class="post-meta">
-        <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
-        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
+        <span class="post-date"><i class="fa fa-calendar"></i><span style="font-family=Helvetica;">{{ post.date | date: date_format }}</span></span>
+        <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i><span style="font-family=Helvetica;"> {{ reading_time }}</span></span>
       </div>
       <a class="post-excerpt" href="{{ post_url }}">
         <p>
@@ -36,7 +36,7 @@
       </a>
       <div class="post-tags">
         {%- for tag in post.tags -%}
-        <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">#{{tag}}</a>
+        <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}"><span style="font-family=Helvetica;"> #{{tag}}</span></a>
         {%- endfor -%}
       </div>
     </li>

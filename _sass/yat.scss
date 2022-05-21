@@ -8,8 +8,8 @@
 }
 
 @font-face {
-    font-family: 'Volkorn';
-    src: url('../../assets/fonts/Vollkorn-Regularwoff2') format("woff2"),
+    font-family: 'Vollkorn';
+    src: url('../../assets/fonts/Vollkorn-Regular.woff2') format("woff2"),
     	 url('../../assets/fonts/Vollkorn-Regular.woff') format("woff"),
     	 url('../../assets/fonts/Vollkorn-Regular.ttf') format("truetype");
 }
@@ -18,7 +18,7 @@ $FL: 'GoudyInitialen', 'Nimbus Roman', !default;
 
 // Define defaults for each variable.
 
-$base-font-family: Helvetica, Arial, Oswald, sans-serif, !default;
+$base-font-family: 'Vollkorn', Helvetica, Arial, Oswald, sans-serif, !default;
 $base-font-size: 14px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;

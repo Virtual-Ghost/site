@@ -4,5 +4,5 @@ title:  "Nothing"
 date:   2022-05-19 10:52:31 -0400
 categories: nothing
 ---
-<n2></h2>
+<h2></h2>
 <p>Nothing<p>

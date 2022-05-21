@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: 'GoudyInitialen';
-    src: url('/fonts/subset-GoudyInitialen.woff2') format("woff2"),
-    	 url('/fonts/subset-GoudyInitialen.woff') format("woff"),
-    	 url('/fonts/GoudyInitialen.ttf') format("truetype");
+    src: url('../assets/fonts/subset-GoudyInitialen.woff2') format("woff2"),
+    	 url('../assets/fonts/subset-GoudyInitialen.woff') format("woff"),
+    	 url('../assets/fonts/GoudyInitialen.ttf') format("truetype");
 }
 
 @font-face {
     font-family: 'Volkorn';
-    src: url('/fonts/Vollkorn-Regularwoff2') format("woff2"),
-    	 url('/fonts/Vollkorn-Regular.woff') format("woff"),
-    	 url('/fonts/Vollkorn-Regular.ttf') format("truetype");
+    src: url('../assets/fonts/Vollkorn-Regularwoff2') format("woff2"),
+    	 url('../assets/fonts/Vollkorn-Regular.woff') format("woff"),
+    	 url('../assets/fonts/Vollkorn-Regular.ttf') format("truetype");
 }
   
 $FL: 'GoudyInitialen', 'Nimbus Roman', !default;

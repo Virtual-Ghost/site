@@ -1,4 +1,5 @@
 <header class="post-header">
+  <span style="font-family:Helvitca;">
   <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
@@ -22,5 +23,5 @@
     {%- endfor -%}
   </div>
   {%- endif -%}
-
+  </span>
 </header>

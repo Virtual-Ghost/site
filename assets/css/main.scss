@@ -1,16 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@font-face {
-    font-family: 'GoudyInitialen';
-    src: url('../assets/fontssubset-GoudyInitialen.woff2') format("woff2"),
-    	 url('../assets/fontssubset-GoudyInitialen.woff') format("woff"),
-    	 url('../../assets/fontsGoudyInitialen.ttf') format("truetype");
-}
-@font-face {
-  font-family: "Volkorn";
-  src: url("../..//assets/fonts/Volkorn-Regular.tff") format("truetype");
-}
 
 // Default theme colors
 $theme-colors: (

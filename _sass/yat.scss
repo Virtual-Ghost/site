@@ -16,7 +16,7 @@
   
 p {
   width: 365px;
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: 'Nimbus Roman';
 }
 
@@ -24,7 +24,7 @@ h2 + p::first-letter {
  line-height: 0.85em;
   font-size: 10em;
   font-family: 'GoudyInitialen';
-  margin-right: 6px;
+  margin-right: 7px;
   float: left;
 }
 
@@ -34,7 +34,7 @@ $base-font-family: 'Vollkorn', Helvetica, Arial, Oswald, sans-serif, !default;
 $base-font-size: 15px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$base-line-height: 1.6 !default;
 
 $spacing-unit:     30px !default;
 

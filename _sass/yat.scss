@@ -14,7 +14,18 @@
     	 url('../../assets/fonts/Vollkorn-Regular.ttf') format("truetype");
 }
   
-$FL: 'GoudyInitialen', 'Nimbus Roman', !default;
+p {
+  width: 500px;
+  line-height: 1.75;
+  font-family: 'Nimbus Roman';
+}
+
+h2 + p::first-letter {
+ line-height: 0.85em;
+  font-size: 10em;
+  font-family: 'GoudyInitialen';
+  float: left;
+}
 
 // Define defaults for each variable.
 

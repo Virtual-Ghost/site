@@ -5,7 +5,7 @@ date:   2022-05-19 12:30 -0400
 categories: nothing
 ---
 <h2></h2>
-<p>NOthing Lorem ipsum dolor sit amet, consectetuer adipiscing
+<p><font color="Purple Lily">N</font>Othing Lorem ipsum dolor sit amet, consectetuer adipiscing
 elit. Ut purus elit, vestibulum ut, placerat ac, adipi-
 scing vitae, felis. Curabitur dictum gravida mauris.
 Nam arcu libero, nonummy eget, consectetuer id, vul-

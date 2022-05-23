@@ -1,9 +1,28 @@
 @font-face {
-    font-family: 'Parisienne';
-    src: url('Parisienne-Regular.woff2') format('woff2'),
-        url('Parisienne-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'GoudyInitialen';
+    src: url('GoudyInitialen.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('Vollkorn-Regular.woff2') format("woff2");
 }
 
+h2 {font-family: 'Vollkorn','Nimbus Roman';}
+
+p {
+  word-wrap: break-word;
+  //width: 500px;
+  line-height: 1.5;
+  font-family: 'Vollkorn','Nimbus Roman';
+  font-size: 1em;
+}
+
+h2 + p::first-letter {
+ margin-top: -.0.0em;
+ line-height: 0.85;
+  font-size: 7em;
+  //color: red;
+  font-family: 'GoudyInitialen', 'Nimbus Roman';
+  margin-right: 4px;
+  float: left;
+}

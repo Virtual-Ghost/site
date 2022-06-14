@@ -21,33 +21,10 @@
     	 url('../../assets/fonts/Parisienne-Regular.ttf') format("truetype");
 }
 
-@font-face {
-    font-family: 'Pictoglyph';
-    src: url('../../assets/fonts/Picto Glyphs.woff2') format("woff2"),
-         url('../../assets/fonts/Picto Glyphs.woff') format("woff"),
-    	 url('../../assets/fonts/Picto Glyphs.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: 'enklm';
-    src: url('../../assets/fonts/enklm.woff2') format("woff2"),
-         url('../../assets/fonts/enklm.woff') format("woff"),
-    	 url('../../assets/fonts/enklm.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: 'vds3';
-    src: url('../../assets/fonts/Vintage Decorative Signs 3.woff2') format("woff2"),
-         url('../../assets/fonts/Vintage Decorative Signs 3.woff') format("woff"),
-    	 url('../../assets/fonts/Vintage Decorative Signs 3.ttf') format("truetype");
-}
-
 p {
   word-wrap: break-word;
-  //width: 500px;
-  line-height: 1.5;
-  font-family: 'Vollkorn','Nimbus Roman';
-  font-size: 1em;
+  line-height: 1.525;
+  font-family: 'Nimbus Roman';
 }
 
 h2 + p::first-letter {
@@ -57,17 +34,6 @@ h2 + p::first-letter {
   font-size: 11em;
   font-family: 'GoudyInitialen';
   margin-right: 10px;
-  float: left;
-}
-
-
-h1 + p::first-letter {
- margin-top: 0.11em;
- line-height: 0.85;
-  font-size: 7em;
-  //color: red;
-  font-family: 'Pictoglyph', 'Nimbus Roman';
-  margin-right: 4px;
   float: left;
 }
 

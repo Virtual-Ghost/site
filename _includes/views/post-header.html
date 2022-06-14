@@ -1,8 +1,8 @@
 <header class="post-header">
   
-  <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
+  <h1 class="post-title p-name" itemprop="name headline" style="text-align:center">{{ heading | default: page.title | escape }}</h1>
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
-  <span style="font-family:Helvitca;">
+  <span style="font-family:Helvetca;">
   <p class="post-meta">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}

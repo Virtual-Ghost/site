@@ -12,6 +12,28 @@
     src: url('./enklm.woff2') format("woff2");
 }
 
+@font-face {
+    font-family: 'englekna';
+    src: url('./ENGLEKNA.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: 'mof';
+    src: url('./Mortised Ornaments Free.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: 'oorn';
+    src: url('./old ornaments.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: 'corn4';
+    src: url('./Cornucopia of Dingbats Four.woff2') format("woff2");
+}
+
+
+
 h2 {font-family: 'Vollkorn','Nimbus Roman';}
 
 p {
@@ -67,6 +89,29 @@ h1 + p::first-letter {
   font-size: 7em;
   //color: red;
   font-family: 'Pictoglyph', 'Nimbus Roman';
+  margin-right: 4px;
+  float: left;
+  text-indent:0px;
+}
+
+@font-face {
+    font-family: 'Voyage';
+    src: url('MysteriousVoyage.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: 'Arabesque';
+    src: url('./Arabesques.woff2') format("woff2");
+}
+
+h3 {font-family: 'Vollkorn','Nimbus Roman';}
+
+h3 + p::first-letter {
+ margin-top: 0.11em;
+ line-height: 0.85;
+  font-size: 5em;
+  //color: red;
+  font-family: 'Arabesque', 'Nimbus Roman';
   margin-right: 4px;
   float: left;
   text-indent:0px;

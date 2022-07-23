@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Vollkorn';
-    src: url('Vollkorn-Regular.woff2') format("woff2");
+    src: url('/assests/fonts/Vollkorn-Regular.woff2') format("woff2");
 }
 @font-face {
     font-family: 'GoudyInitialen';

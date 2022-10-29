@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ".."
+title:  "..."
 date:   2022-07-25
 categories:
 ---
